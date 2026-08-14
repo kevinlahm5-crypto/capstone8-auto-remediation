@@ -1,0 +1,1 @@
+{"Version": "2012-10-17", "Statement": [{"Effect": "Allow", "Action": "states:StartExecution", "Resource": "arn:aws:states:us-east-1:264787847442:stateMachine:CapstoneAutoRemediation"}, {"Effect": "Allow", "Action": "kinesis:PutRecord", "Resource": "arn:aws:kinesis:us-east-1:264787847442:stream/capstone-event-stream"}]}

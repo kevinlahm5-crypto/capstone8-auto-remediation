@@ -1,0 +1,1 @@
+{"Version": "2012-10-17", "Statement": [{"Sid": "AllowEventBridgeSendMessage", "Effect": "Allow", "Principal": {"Service": "events.amazonaws.com"}, "Action": "sqs:SendMessage", "Resource": "arn:aws:sqs:us-east-1:264787847442:capstone-audit-queue", "Condition": {"ArnEquals": {"aws:SourceArn": "arn:aws:events:us-east-1:264787847442:rule/ConfigNonCompliantRule"}}}]}

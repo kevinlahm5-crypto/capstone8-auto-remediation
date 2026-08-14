@@ -27,8 +27,8 @@ non-compliant resources, and provides full observability.
 
 - [x] Step 1: AWS Config enabled (recorder + delivery channel)
 - [x] Step 2: Config rule for open SSH detection
-- [ ] Step 3: SQS queue
-- [ ] Step 4: Kinesis stream
+- [x] Step 3: SQS queue
+- [x] Step 4: Kinesis stream
 - [ ] Step 5: Lambda evaluator
 - [ ] Step 6: Step Functions workflow
 - [ ] Step 7: EventBridge fan-out rule

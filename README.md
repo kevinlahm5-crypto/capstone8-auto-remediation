@@ -29,7 +29,7 @@ non-compliant resources, and provides full observability.
 - [x] Step 2: Config rule for open SSH detection
 - [x] Step 3: SQS queue
 - [x] Step 4: Kinesis stream
-- [ ] Step 5: Lambda evaluator
+- [x] Step 5: Lambda evaluator
 - [ ] Step 6: Step Functions workflow
 - [ ] Step 7: EventBridge fan-out rule
 - [ ] Step 8: CloudWatch + X-Ray monitoring

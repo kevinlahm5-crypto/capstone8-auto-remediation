@@ -30,7 +30,7 @@ non-compliant resources, and provides full observability.
 - [x] Step 3: SQS queue
 - [x] Step 4: Kinesis stream
 - [x] Step 5: Lambda evaluator
-- [ ] Step 6: Step Functions workflow
-- [ ] Step 7: EventBridge fan-out rule
-- [ ] Step 8: CloudWatch + X-Ray monitoring
+- [x] Step 6: Step Functions workflow
+- [x] Step 7: EventBridge fan-out rule
+- [x] Step 8: CloudWatch + X-Ray monitoring
 - [ ] Step 9: End-to-end test

@@ -13,10 +13,11 @@
       "Parameters": {
         "DocumentName": "AWS-DisablePublicAccessForSecurityGroup",
         "Parameters": {
-          "GroupId.$": "States.Array($.SecurityGroupId)"
+          "GroupId.$": "States.Array($.detail.resourceId)"
         }
       },
       "End": true
     }
   }
 }
+ 

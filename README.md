@@ -33,4 +33,4 @@ non-compliant resources, and provides full observability.
 - [x] Step 6: Step Functions workflow
 - [x] Step 7: EventBridge fan-out rule
 - [x] Step 8: CloudWatch + X-Ray monitoring
-- [ ] Step 9: End-to-end test
+- [x] Step 9: End-to-end test
